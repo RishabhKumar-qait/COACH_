@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parameter">
+	<test name="Parameter">
+		<parameter name="name" value="Google.com"></parameter>
+		<classes>
+			<!-- <class name="Verify_Main_menu_break.Main_Menu_Test"></class> -->
+			<class name="Verify_Homepage.VerifyHomePage_Test"></class>
+
+		</classes>
+	</test>
+
+</suite>	

@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-parameter">
+              <span class="suite-name border-skipped">parameter</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-parameter">
+                    <span>D:\selenium web driver\coach\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-parameter">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-parameter">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-parameter">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-parameter">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-parameter">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-parameter">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,  10 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-parameter" class="hide-methods skipped suite-parameter"> (hide)</a> <!-- hide-methods skipped suite-parameter -->
+                      <a href="#" panel-name="suite-parameter" class="show-methods skipped suite-parameter"> (show)</a> <!-- show-methods skipped suite-parameter -->
+                    </span>
+                    <div class="method-list-content skipped suite-parameter">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="coach_001_verify_logo">coach_001_verify_logo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="coach_002_verify_Account">coach_002_verify_Account</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="coach_003_verify_wishlist">coach_003_verify_wishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_COACH_1941">verify_COACH_1941</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_Gifts">verify_Gifts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_Men">verify_Men</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_New">verify_New</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_Personalize">verify_Personalize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_Sale">verify_Sale</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-parameter" title="Verify_Homepage.VerifyHomePage_Test" hash-for-method="verify_Women">verify_Women</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-parameter -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-parameter" class="panel parameter">
+          <div class="suite-parameter-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">Verify_Homepage.VerifyHomePage_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="coach_001_verify_logo">
+                  </a> <!-- coach_001_verify_logo -->
+                  <span class="method-name">coach_001_verify_logo</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coach_002_verify_Account">
+                  </a> <!-- coach_002_verify_Account -->
+                  <span class="method-name">coach_002_verify_Account</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="coach_003_verify_wishlist">
+                  </a> <!-- coach_003_verify_wishlist -->
+                  <span class="method-name">coach_003_verify_wishlist</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_COACH_1941">
+                  </a> <!-- verify_COACH_1941 -->
+                  <span class="method-name">verify_COACH_1941</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Gifts">
+                  </a> <!-- verify_Gifts -->
+                  <span class="method-name">verify_Gifts</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Men">
+                  </a> <!-- verify_Men -->
+                  <span class="method-name">verify_Men</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_New">
+                  </a> <!-- verify_New -->
+                  <span class="method-name">verify_New</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Personalize">
+                  </a> <!-- verify_Personalize -->
+                  <span class="method-name">verify_Personalize</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Sale">
+                  </a> <!-- verify_Sale -->
+                  <span class="method-name">verify_Sale</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verify_Women">
+                  </a> <!-- verify_Women -->
+                  <span class="method-name">verify_Women</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-parameter-class-skipped -->
+        </div> <!-- panel parameter -->
+        <div panel-name="test-xml-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\selenium web driver\coach\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;parameter&quot;&gt;
+  &lt;test name=&quot;Parameter&quot;&gt;
+    &lt;parameter name=&quot;name&quot; value=&quot;Google.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Verify_Homepage.VerifyHomePage_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Parameter --&gt;
+&lt;/suite&gt; &lt;!-- parameter --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for parameter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Parameter (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for parameter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for parameter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_parameter');
+function tableData_parameter() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'coach_003_verify_wishlist')
+data.setCell(0, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(0, 3, 0);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verify_COACH_1941')
+data.setCell(1, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'coach_002_verify_Account')
+data.setCell(2, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verify_Sale')
+data.setCell(3, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verify_Personalize')
+data.setCell(4, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verify_Gifts')
+data.setCell(5, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verify_Men')
+data.setCell(6, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'coach_001_verify_logo')
+data.setCell(7, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verify_New')
+data.setCell(8, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verify_Women')
+data.setCell(9, 2, 'Verify_Homepage.VerifyHomePage_Test')
+data.setCell(9, 3, 0);
+window.suiteTableData['parameter']= { tableData: data, tableDiv: 'times-div-parameter'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 0 ms</span>
+              <div id="times-div-parameter">
+              </div> <!-- times-div-parameter -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for parameter</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-parameter" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Verify_Homepage.VerifyHomePage_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">start_browser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 1, Errors: 0, Skipped: 21, Time elapsed: 0.349 sec <<< FAILURE!
+start_browser(Verify_Homepage.VerifyHomePage_Test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+

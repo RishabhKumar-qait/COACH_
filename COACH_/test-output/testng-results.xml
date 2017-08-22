@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55058" started-at="2017-08-22T13:50:08Z" finished-at="2017-08-22T13:51:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55058" started-at="2017-08-22T13:50:08Z" finished-at="2017-08-22T13:51:03Z">
+      <class name="Verify_Homepage.VerifyHomePage_Test">
+        <test-method status="PASS" signature="start_browser()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="start_browser" is-config="true" duration-ms="3704" started-at="2017-08-22T19:20:08Z" finished-at="2017-08-22T19:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start_browser -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="8435" started-at="2017-08-22T19:20:12Z" finished-at="2017-08-22T19:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_001_verify_logo()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_001_verify_logo" duration-ms="45" started-at="2017-08-22T19:20:21Z" finished-at="2017-08-22T19:20:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_001_verify_logo -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="2809" started-at="2017-08-22T19:20:21Z" finished-at="2017-08-22T19:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_002_verify_Account()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_002_verify_Account" duration-ms="63" started-at="2017-08-22T19:20:23Z" finished-at="2017-08-22T19:20:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_002_verify_Account -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="4245" started-at="2017-08-22T19:20:23Z" finished-at="2017-08-22T19:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_003_verify_wishlist()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_003_verify_wishlist" duration-ms="225" started-at="2017-08-22T19:20:28Z" finished-at="2017-08-22T19:20:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_003_verify_wishlist -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="2093" started-at="2017-08-22T19:20:28Z" finished-at="2017-08-22T19:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_004_verify_New()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_004_verify_New" duration-ms="2960" started-at="2017-08-22T19:20:30Z" finished-at="2017-08-22T19:20:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_004_verify_New -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="3812" started-at="2017-08-22T19:20:33Z" finished-at="2017-08-22T19:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_005_verify_Women()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_005_verify_Women" duration-ms="2150" started-at="2017-08-22T19:20:37Z" finished-at="2017-08-22T19:20:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_005_verify_Women -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="2764" started-at="2017-08-22T19:20:39Z" finished-at="2017-08-22T19:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_006_verify_Men()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_006_verify_Men" duration-ms="1899" started-at="2017-08-22T19:20:42Z" finished-at="2017-08-22T19:20:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_006_verify_Men -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="2645" started-at="2017-08-22T19:20:44Z" finished-at="2017-08-22T19:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_007_verify_COACH_1941()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_007_verify_COACH_1941" duration-ms="1725" started-at="2017-08-22T19:20:46Z" finished-at="2017-08-22T19:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_007_verify_COACH_1941 -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="2490" started-at="2017-08-22T19:20:48Z" finished-at="2017-08-22T19:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_008_verify_Personalize()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_008_verify_Personalize" duration-ms="2427" started-at="2017-08-22T19:20:50Z" finished-at="2017-08-22T19:20:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_008_verify_Personalize -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="3015" started-at="2017-08-22T19:20:53Z" finished-at="2017-08-22T19:20:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_009_verify_Gifts()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_009_verify_Gifts" duration-ms="2099" started-at="2017-08-22T19:20:56Z" finished-at="2017-08-22T19:20:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_009_verify_Gifts -->
+        <test-method status="PASS" signature="launch_url()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="launch_url" is-config="true" duration-ms="3344" started-at="2017-08-22T19:20:58Z" finished-at="2017-08-22T19:21:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_url -->
+        <test-method status="PASS" signature="coach_010_verify_Sale()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="coach_010_verify_Sale" duration-ms="1984" started-at="2017-08-22T19:21:01Z" finished-at="2017-08-22T19:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coach_010_verify_Sale -->
+        <test-method status="PASS" signature="close_browser()[pri:0, instance:Verify_Homepage.VerifyHomePage_Test@598067a5]" name="close_browser" is-config="true" duration-ms="69" started-at="2017-08-22T19:21:03Z" finished-at="2017-08-22T19:21:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- Verify_Homepage.VerifyHomePage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

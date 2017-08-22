@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="22" failures="1" name="TestSuite" time="0.343" errors="0" skipped="21">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\selenium web driver\coach"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\selenium web driver\coach"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\RISHAB~1.KUM\AppData\Local\Temp\surefirebooter1997287187854510116.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\RISHAB~1.KUM\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Ruby24-x64\bin;C:\Users\rishabh.kumar\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\rishabh.kumar\AppData\Local\Programs\Python\Python36-32\;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Skype\Phone\;C:\Users\rishabh.kumar\AppData\Local\Programs\Git\cmd;C:\Users\rishabh.kumar\Desktop\eclipse-java-neon-3-win32-x86_64;;."/>
+    <property name="surefire.test.class.path" value="D:\selenium web driver\coach\target\test-classes;D:\selenium web driver\coach\target\classes;C:\Users\rishabh.kumar\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\rishabh.kumar\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\rishabh.kumar\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\rishabh.kumar\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\rishabh.kumar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rishabh.kumar\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\rishabh.kumar\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\rishabh.kumar\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\rishabh.kumar\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\rishabh.kumar\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\rishabh.kumar\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rishabh.kumar\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\rishabh.kumar\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\rishabh.kumar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\rishabh.kumar\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\rishabh.kumar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\rishabh.kumar\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\rishabh.kumar\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\rishabh.kumar"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="rishabh.kumar"/>
+    <property name="java.class.path" value="D:\selenium web driver\coach\target\test-classes;D:\selenium web driver\coach\target\classes;C:\Users\rishabh.kumar\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Users\rishabh.kumar\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Users\rishabh.kumar\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-java\3.4.0\selenium-java-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-api\3.4.0\selenium-api-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.4.0\selenium-chrome-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.4.0\selenium-edge-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.4.0\selenium-firefox-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.4.0\selenium-ie-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.4.0\selenium-opera-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.4.0\selenium-remote-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.4.0\selenium-safari-driver-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\selenium-support\3.4.0\selenium-support-3.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\cglib\cglib-nodep\3.2.4\cglib-nodep-3.2.4.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\rishabh.kumar\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\rishabh.kumar\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\rishabh.kumar\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.22\cssparser-0.9.22.jar;C:\Users\rishabh.kumar\.m2\repository\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar;C:\Users\rishabh.kumar\.m2\repository\com\google\guava\guava\21.0\guava-21.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.26\htmlunit-2.26.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.26\htmlunit-core-js-2.26.jar;C:\Users\rishabh.kumar\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.25\neko-htmlunit-2.25.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\rishabh.kumar\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-io\9.4.1.v20170120\jetty-io-9.4.1.v20170120.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-util\9.4.1.v20170120\jetty-util-9.4.1.v20170120.jar;C:\Users\rishabh.kumar\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\rishabh.kumar\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\rishabh.kumar\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\rishabh.kumar\.m2\repository\com\codeborne\phantomjsdriver\1.4.0\phantomjsdriver-1.4.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.26\htmlunit-driver-2.26.jar;C:\Users\rishabh.kumar\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.4.3.v20170317\websocket-api-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.4.3.v20170317\websocket-client-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-client\9.4.3.v20170317\jetty-client-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\jetty-http\9.4.3.v20170317\jetty-http-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.4.3.v20170317\websocket-common-9.4.3.v20170317.jar;C:\Users\rishabh.kumar\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\rishabh.kumar\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\rishabh.kumar\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\rishabh.kumar\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\rest-assured\2.9.0\rest-assured-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\codehaus\groovy\groovy\2.4.4\groovy-2.4.4.jar;C:\Users\rishabh.kumar\.m2\repository\org\codehaus\groovy\groovy-xml\2.4.4\groovy-xml-2.4.4.jar;C:\Users\rishabh.kumar\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\rishabh.kumar\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\org\codehaus\groovy\groovy-json\2.4.4\groovy-json-2.4.4.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\rest-assured-common\2.9.0\rest-assured-common-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\com\jayway\restassured\xml-path\2.9.0\xml-path-2.9.0.jar;C:\Users\rishabh.kumar\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="C:\Users\RISHAB~1.KUM\AppData\Local\Temp\surefirebooter1997287187854510116.jar C:\Users\RISHAB~1.KUM\AppData\Local\Temp\surefire2390476992944727984tmp C:\Users\RISHAB~1.KUM\AppData\Local\Temp\surefire3383423002215035337tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\rishabh.kumar\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="start_browser" time="0">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+	at Start_Browser.Browser.start_chrome(Browser.java:15)
+	at Verify_Homepage.VerifyHomePageMethod.start_chrome(VerifyHomePageMethod.java:34)
+	at Verify_Homepage.VerifyHomePage_Test.start_browser(VerifyHomePage_Test.java:19)
+</failure>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="coach_001_verify_logo" time="0.01">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="coach_002_verify_Account" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="coach_003_verify_wishlist" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_COACH_1941" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_Gifts" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_Men" time="0.012">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_New" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_Personalize" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_Sale" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="launch_url" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="verify_Women" time="0.013">
+    <skipped/>
+  </testcase>
+  <testcase classname="Verify_Homepage.VerifyHomePage_Test" name="close_browser" time="0.014">
+    <skipped/>
+  </testcase>
+</testsuite>

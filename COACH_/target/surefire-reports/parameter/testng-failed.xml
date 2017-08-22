@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [parameter]">
+  <test name="Parameter(failed)">
+    <parameter name="name" value="Google.com"/>
+    <classes>
+      <class name="Verify_Homepage.VerifyHomePage_Test">
+        <methods>
+          <include name="coach_003_verify_wishlist"/>
+          <include name="close_browser"/>
+          <include name="verify_COACH_1941"/>
+          <include name="launch_url"/>
+          <include name="verify_Gifts"/>
+          <include name="verify_Personalize"/>
+          <include name="verify_Sale"/>
+          <include name="verify_Women"/>
+          <include name="coach_001_verify_logo"/>
+          <include name="start_browser"/>
+          <include name="verify_Men"/>
+          <include name="coach_002_verify_Account"/>
+          <include name="verify_New"/>
+        </methods>
+      </class> <!-- Verify_Homepage.VerifyHomePage_Test -->
+    </classes>
+  </test> <!-- Parameter(failed) -->
+</suite> <!-- Failed suite [parameter] -->
